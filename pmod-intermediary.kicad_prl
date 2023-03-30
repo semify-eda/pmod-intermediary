@@ -14,10 +14,11 @@
       "vias": 1.0,
       "zones": 0.6
     },
+    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": false,
       "footprints": true,
-      "graphics": true,
+      "graphics": false,
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
@@ -68,33 +69,21 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "pmod-measuring-adapter.kicad_prl",
+    "filename": "pmod-intermediary.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "pmod-measuring-adapter.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 2576,
-          "size_y": 1416
-        }
-      },
-      {
-        "name": "pmod-measuring-adapter.kicad_sch",
+        "name": "pmod-intermediary.kicad_sch",
         "open": false,
         "window": {
           "display": 1,
           "maximized": false,
-          "pos_x": -16,
-          "pos_y": -16,
-          "size_x": 2576,
-          "size_y": 1416
+          "pos_x": -7,
+          "pos_y": 0,
+          "size_x": 1932,
+          "size_y": 1047
         }
       }
     ]

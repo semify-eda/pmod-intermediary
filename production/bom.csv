@@ -5,9 +5,8 @@ J1,PinHeader_2x06_P2.54mm_Horizontal,1,Conn_02x06_male_plug,
 J2,PinHeader_2x06_P2.54mm_Vertical,1,Conn_02x06_pins,
 J3,PinSocket_2x06_P2.54mm_Horizontal,1,Conn_02x06_female_receptable,
 "J4, J5, J6, J8",PinHeader_1x03_P2.54mm_Vertical,4,Conn_01x03,
-J7,PinHeader_2x02_P2.54mm_Vertical,1,Conn_02x02_Odd_Even,
-R1,0603,1,R_sense,
-R2,0603,1,R_sense,
-R3,0603,1,R_sense,
-R4,0603,1,R_sense,
-R5,0603,1,22k,
+R1,0603,1,R_sense,C22936
+R2,0603,1,R_sense,C22936
+R3,0603,1,R_sense,C22936
+R4,0603,1,R_sense,C22936
+R5,0603,1,22k,C31850

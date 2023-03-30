@@ -64,67 +64,6 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_02x02_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 1.27 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_02x02_Odd_Even" (at 1.27 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_02x02_Odd_Even_1_1"
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 1.27) (end 3.81 -3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 3.81 -2.413) (end 2.54 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 0 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -2.54 180) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector_Generic:Conn_02x06_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 7.62 0)
         (effects (font (size 1.27 1.27)))
@@ -592,10 +531,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 05570fe3-d0da-4c90-93f7-cf7d8316f8bd)
   )
-  (label "out_pwr_6" (at 43.18 77.47 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 062135b0-f54b-4251-850e-213ac8fc5c7d)
-  )
   (label "out_gnd_5" (at 80.01 41.91 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 06a2a257-6c77-4cd1-84ed-d6f1e5d4f3b4)
@@ -708,10 +643,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 90553d19-bba3-4891-829f-4d8b9ee13b2a)
   )
-  (label "out_gnd_11" (at 55.88 74.93 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 979b5333-9017-44da-bb08-67e3ceb4917f)
-  )
   (label "out_gnd_11" (at 104.14 58.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 98a9ce7d-3b50-4847-ab57-094a172d372c)
@@ -719,10 +650,6 @@
   (label "in_pwr" (at 29.21 95.25 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a6f71e11-4f4a-496e-ab49-5120c63f212f)
-  )
-  (label "out_gnd_5" (at 55.88 77.47 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bb26e556-edc6-49c1-b6ea-0cc75d3332d0)
   )
   (label "in_8" (at 58.42 34.29 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -780,10 +707,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fb822a1d-a518-42d2-a5ce-90ffa33217b4)
   )
-  (label "out_pwr_12" (at 43.18 74.93 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid fe76d9b9-3413-49b8-842d-8e2dc6f57fbc)
-  )
   (label "in_10" (at 58.42 39.37 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fff63573-8133-4486-89df-95ef1e425a91)
@@ -818,7 +741,7 @@
           (reference "D202") (unit 1)
         )
       )
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "D1") (unit 1)
         )
@@ -850,7 +773,7 @@
     (pin "1" (uuid 947da1ac-356e-4223-b994-19bcf5daac36))
     (pin "2" (uuid bf39b92e-46a5-41f0-8848-4b4af5e95a3e))
     (instances
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "R3") (unit 1)
         )
@@ -882,7 +805,7 @@
     (pin "1" (uuid c0060dd6-c883-44f7-bd26-1285fb0ae005))
     (pin "2" (uuid 8890607c-73a3-4b30-8f8c-928a1aa0973e))
     (instances
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "R2") (unit 1)
         )
@@ -909,37 +832,9 @@
     (pin "2" (uuid b296b559-db8e-4d9a-8790-3d28fc940f43))
     (pin "3" (uuid 65b20189-4a98-4941-87d5-5933d2e91216))
     (instances
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "J6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 48.26 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 38722b2b-7e56-4e35-add6-de70cd829ab7)
-    (property "Reference" "J7" (at 49.53 69.85 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_02x02_Odd_Even" (at 49.53 72.39 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" (at 48.26 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 48.26 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 74a4a910-8b59-422d-83cd-f6a0f9dea034))
-    (pin "2" (uuid ccfae8c9-c000-468d-97ed-c35d9337a85e))
-    (pin "3" (uuid 5d940447-b144-4f56-8f54-7552ca4fdcb1))
-    (pin "4" (uuid ceb95441-bed1-457c-b440-6ba86bb41fca))
-    (instances
-      (project "pmod-measuring-adapter"
-        (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
-          (reference "J7") (unit 1)
         )
       )
     )
@@ -964,7 +859,7 @@
     (pin "2" (uuid 6df1bf7e-9fef-4114-9e79-50203e8ab20a))
     (pin "3" (uuid c6d00fa2-0ae4-4b8f-a8b5-97515aac1869))
     (instances
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "J5") (unit 1)
         )
@@ -996,7 +891,7 @@
     (pin "1" (uuid 6a479eab-7d07-4adc-852a-b78b60900a48))
     (pin "2" (uuid 681e9a8a-8d5f-4da9-b0af-93289f0b8752))
     (instances
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "R1") (unit 1)
         )
@@ -1033,7 +928,7 @@
           (reference "R209") (unit 1)
         )
       )
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "R5") (unit 1)
         )
@@ -1069,7 +964,7 @@
     (pin "8" (uuid 4b384d30-4a70-4867-a130-0b6723e971e8))
     (pin "9" (uuid c469b6fb-07bc-4ef8-8b79-6b291793d8a5))
     (instances
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "J3") (unit 1)
         )
@@ -1106,7 +1001,7 @@
           (reference "C213") (unit 1)
         )
       )
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "C1") (unit 1)
         )
@@ -1133,7 +1028,7 @@
     (pin "2" (uuid 28e5343f-d6e6-4632-8c91-1b5632abf9f3))
     (pin "3" (uuid 79554d2b-e0ac-4a72-935a-90410c84ad86))
     (instances
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "J8") (unit 1)
         )
@@ -1169,7 +1064,7 @@
     (pin "8" (uuid cfa3f27e-6055-4be0-83e5-1410b703cc43))
     (pin "9" (uuid 1014fd5f-8f2d-495b-83f3-ad5e96072221))
     (instances
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "J2") (unit 1)
         )
@@ -1201,7 +1096,7 @@
     (pin "1" (uuid 820a96d5-c569-4919-9dc4-3d982b4a8e29))
     (pin "2" (uuid 5d84ff99-a158-4606-8075-5972324c47fa))
     (instances
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "R4") (unit 1)
         )
@@ -1237,7 +1132,7 @@
     (pin "8" (uuid 5068ddfa-9e34-4c3c-8f8b-2720d173aed4))
     (pin "9" (uuid d357a58d-6dec-4795-9fad-b6531e6d8a7a))
     (instances
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "J1") (unit 1)
         )
@@ -1264,7 +1159,7 @@
     (pin "2" (uuid 4858cfb0-e265-4244-80d0-7e93ced8b669))
     (pin "3" (uuid bb6f1ba2-8a9a-447e-a02e-e24950533398))
     (instances
-      (project "pmod-measuring-adapter"
+      (project "pmod-intermediary"
         (path "/fa61056b-7d43-4fdf-a61b-eec01ae57378"
           (reference "J4") (unit 1)
         )
