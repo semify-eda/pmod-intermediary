@@ -1,4 +1,4 @@
-# PMOD™ Intermediary - Monitoring and debugging PMOD™s
+# PMOD™ Intermediary - Monitoring and debugging PMOD™ peripherals
 
 
 <img
