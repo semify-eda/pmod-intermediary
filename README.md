@@ -22,3 +22,8 @@ Do you know how much current your PMOD™ consumes?
 ### Dynamic current using shunt resistor
 
 ## External supply voltage
+
+## Reference
+
+  - [Schemtaic]()
+  - [Digilent Pmod™ Interface Specification](https://digilent.com/reference/_media/reference/pmod/digilent-pmod-interface-specification.pdf)
