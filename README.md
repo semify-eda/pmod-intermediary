@@ -1,5 +1,19 @@
 # PMOD™ Intermediary - Monitoring and debugging PMOD™s
 
+
+<img
+  src="https://user-images.githubusercontent.com/52371300/229370156-438bf2c2-f6c3-4feb-8aa1-e4beeff5bb67.jpg"
+  alt="PMOD™ Intermediary"
+  title="PMOD™ Intermediary"
+  style="display: inline-block; margin: 0 auto; width: 200px"> 
+<img
+  src="https://user-images.githubusercontent.com/52371300/229370472-9fe26ba4-cf2e-480e-92bb-56f49efe4b65.jpg"
+  alt="PMOD™ Intermediary"
+  title="PMOD™ Intermediary"
+  style="display: inline-block; margin: 0 auto; width: 300px">
+
+
+  
 ## Overview
 
 Our PMOD™ intermediary board is designed for monitoring and debugging purposes, allowing users to monitor all signals of a 12-pin PMOD™ connector.
