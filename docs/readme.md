@@ -1,21 +1,5 @@
 # PMOD™ Intermediary - Monitoring and debugging PMOD™ peripherals
 
-
-<img
-  src="https://user-images.githubusercontent.com/52371300/232043387-a45369d5-aef3-471d-a96c-88b0fbe72440.jpg"
-  alt="PMOD™ Intermediary"
-  title="PMOD™ Intermediary"
-  style="display: inline-block; margin: 0 auto; width: 200px"> 
-  
-  
-  
-<img
-  src="https://user-images.githubusercontent.com/52371300/232043409-f9909ebf-54b3-4fa5-8729-e9a1d9fcb358.jpg"
-  alt="PMOD™ Intermediary"
-  title="PMOD™ Intermediary"
-  style="display: inline-block; margin: 0 auto; width: 300px">
-
-
   
 ## Overview
 
