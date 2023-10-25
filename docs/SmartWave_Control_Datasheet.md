@@ -12,12 +12,27 @@
 ### Connector
 
 #### PMOD™
-The SmartWave - Control support two fully populated Digilent PMOD™ header with 12 pins each. 
+The SmartWave - Control support two fully populated Digilent PMOD™ header with 12 pins each called PMOD-A and PMOD-B. 
 
-General information about the digitlent PMOD™ header can bo found [here](https://digilent.com/reference/pmod/start)
+The distance between the two PMOD™ connectors follows the standard 12-pin female host port placement descibed in the (Digilent Pmod™ Interface Specification)[https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_3_1.pdf].
 
-  - Pin assignment
-  - Mechanical drawing
+General information about the digitlent PMOD™ header can bo found [here](https://digilent.com/reference/pmod/start).
+
+The voltage level of the VDDIO can be configured between 1.8 - 5.0V (VBUS). PMOD-A and PMOD-B share the same VDDIO supply level.
+| *Pin* | *Function*   |
+| --------- | -------|
+| 1         | A/B 1     |
+| 2         | A/B 2     |
+| 3         | A/B 3     |
+| 4         | A/B 4     |
+| 5         | GND    |
+| 6         | VDDIO     |
+| 7         | A/B 5     |
+| 8         | A/B 6     |
+| 9         | A/B 7    |
+| 10        | A/B 8    |
+| 11        | GND     |
+| 12        | VDDIO     |
 
 #### USB Connector
   - Type
