@@ -1,6 +1,9 @@
 # Datasheet
+
 ## Block diagram
+
 ## Electrical parameter
+
 ### IOs
   - IO Voltage range
   - Pull-up resistor value
@@ -8,6 +11,14 @@
   - Rise and fall time on a given load
   - Current drive capability
   - Maximal frequency
+
+### Current consumption 
+The SmartWave-Control is supplied via the USB connector.
+
+| *Parameter* | *Min Value*   | *Max Value*   | *Unit*  |
+| --------- | -------:| ----:  | ----|
+| I_supply| - | 8ßß | mA  |
+
 
 ### Connector
 
@@ -35,9 +46,7 @@ The voltage level of the VDDIO can be configured between 1.8 - 5.0V (VBUS). PMOD
 | 12        | VDDIO     |
 
 #### USB Connector
-  - Type
-  -
-### Current consumption 
+For the communication with the host (eg PC) a Micro USB (USB-B) connector is used.
 
 ### Driver
 
