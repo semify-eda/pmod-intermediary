@@ -26,11 +26,23 @@
   - Interface max frequency
   - Interface min frequency
 
-### Housing
-  - Dimension
 
 ### Display
-  - Resolution
-  - Dimension (resolution)
-  -	Type
 
+SmartWave uses an IPS LCD Display to configuration and status information.
+
+| *Parameter* | *Value*   | *Unit*  |
+| --------- | -------:| ----  |
+| Resolution| 240×320 | px  |
+| Colors    | 262k    | -   |
+| Diagonal  |  2      | inch|
+
+
+### Housing
+The housing is a robust anodized aluminum housing.
+
+| *Parameter* | *Value*   | *Unit*  |
+| --------- | -------:| ----  |
+| Width     |      86 | mm    |
+| Height    |      67 | mm    |
+| Depth     |      32 | mm    |
