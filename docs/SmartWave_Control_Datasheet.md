@@ -1,6 +1,19 @@
-# Datasheet
+# SmartWave-Control Datasheet
+
+## Overview
+
+SmartWave, by semify GmbH, is a cutting-edge hardware tool designed for professional testing. 
+It facilitates communication with a multitude of devices, including ADC, DAC, and Sensors, through industry-standard interfaces like SPI, I2C, and UART.
+The device boasts a robust design, combined with flexible configuration options. Notable features include a range of standard interfaces, configurable IO voltage between 1.8 or 5.0 Volts, and a display that provides pin assignments and status information. 
+
+Additionally, SmartWave is Pmod™ compatible, allowing direct connection with DIGILENT Pmod™ based extension boards. Its advanced FPGA platform ensures unparalleled performance and adaptability, making it an essential companion to any oscilloscope.
 
 ## Block diagram
+
+The following drawing shows the block diagram of the SmartWave-Control hardware. 
+
+![SmartWave-Control Block Diagram](SmartWave_Blockdiagram.svg?raw=true "SmartWave-Control Block Diagram")
+
 
 ## Electrical parameter
 
@@ -25,11 +38,12 @@ The SmartWave-Control is supplied via the USB connector.
 #### PMOD™
 The SmartWave - Control support two fully populated Digilent PMOD™ header with 12 pins each called PMOD-A and PMOD-B. 
 
-The distance between the two PMOD™ connectors follows the standard 12-pin female host port placement descibed in the (Digilent Pmod™ Interface Specification)[https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_3_1.pdf].
+The distance between the two PMOD™ connectors follows the standard 12-pin female host port placement descibed in the [Digilent Pmod™ Interface Specification](https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_3_1.pdf).
 
 General information about the digitlent PMOD™ header can bo found [here](https://digilent.com/reference/pmod/start).
 
 The voltage level of the VDDIO can be configured between 1.8 - 5.0V (VBUS). PMOD-A and PMOD-B share the same VDDIO supply level.
+
 | *Pin* | *Function*   |
 | --------- | -------|
 | 1         | A/B 1     |
@@ -65,6 +79,7 @@ The SPI driver operates in master mode. It can receive and transmit data in full
 General information about the SPI interface can bo found [here](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface).
 
 The SPI driver supports the following configuration parameters:
+
 | *Parameter* | *Description*   |
 | --------- | -------|
 | Bit Width | Number of transferred bits per SPI frame |
