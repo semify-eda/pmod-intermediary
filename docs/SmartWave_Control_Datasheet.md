@@ -14,14 +14,6 @@ The following drawing shows the block diagram of the SmartWave-Control hardware.
 
 ![SmartWave-Control Block Diagram](SmartWave_Blockdiagram.svg?raw=true "SmartWave-Control Block Diagram")
 
-## Pinout Diagram
-
-<img src=SmartWave_Blockdiagram_Pin.svg width=50% height=50% alt="SmartWave-Control Pinout Diagram" title="SmartWave-Control Pinout Diagram" style="horizontal-align:center">
-
-The following drawing shows the pin out diagram for the PMOD™ conectors.
-
-![SmartWave-Control Pinout Diagram](SmartWave_Blockdiagram_Pin.svg?raw=true "SmartWave-Control Pinout Diagram")
-
 
 ## Electrical parameter
 
@@ -66,6 +58,13 @@ The voltage level of the VDDIO can be configured between 1.8 - 5.0V (VBUS). PMOD
 | 10        | A/B 8    |
 | 11        | GND     |
 | 12        | VDDIO     |
+
+##### Pinout Diagram
+
+The following drawing shows the pin out diagram for the PMOD™ conectors.
+
+<img src=SmartWave_Blockdiagram_Pin.svg width=50% height=50% alt="SmartWave-Control Pinout Diagram" title="SmartWave-Control Pinout Diagram" style="horizontal-align:center">
+
 
 #### USB Connector
 For the communication with the host (eg PC) a Micro USB (USB-B) connector is used.
