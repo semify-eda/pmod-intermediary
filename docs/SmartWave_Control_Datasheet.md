@@ -14,6 +14,14 @@ The following drawing shows the block diagram of the SmartWave-Control hardware.
 
 ![SmartWave-Control Block Diagram](SmartWave_Blockdiagram.svg?raw=true "SmartWave-Control Block Diagram")
 
+## Pinout Diagram
+
+<img src=SmartWave_Blockdiagram_Pin.svg width=50% height=50% alt="SmartWave-Control Pinout Diagram" title="SmartWave-Control Pinout Diagram" style="horizontal-align:center">
+
+The following drawing shows the pin out diagram for the PMOD™ conectors.
+
+![SmartWave-Control Pinout Diagram](SmartWave_Blockdiagram_Pin.svg?raw=true "SmartWave-Control Pinout Diagram")
+
 
 ## Electrical parameter
 
@@ -30,7 +38,7 @@ The SmartWave-Control is supplied via the USB connector.
 
 | *Parameter* | *Min Value*   | *Max Value*   | *Unit*  |
 | --------- | -------:| ----:  | ----|
-| I_supply| - | 8ßß | mA  |
+| I_supply| - | 800 | mA  |
 
 
 ### Connector
