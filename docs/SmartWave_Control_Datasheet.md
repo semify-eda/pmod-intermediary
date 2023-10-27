@@ -25,11 +25,12 @@ The SmartWave-Control is supplied via the USB connector.
 #### PMOD™
 The SmartWave - Control support two fully populated Digilent PMOD™ header with 12 pins each called PMOD-A and PMOD-B. 
 
-The distance between the two PMOD™ connectors follows the standard 12-pin female host port placement descibed in the (Digilent Pmod™ Interface Specification)[https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_3_1.pdf].
+The distance between the two PMOD™ connectors follows the standard 12-pin female host port placement descibed in the [Digilent Pmod™ Interface Specification](https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_3_1.pdf).
 
 General information about the digitlent PMOD™ header can bo found [here](https://digilent.com/reference/pmod/start).
 
 The voltage level of the VDDIO can be configured between 1.8 - 5.0V (VBUS). PMOD-A and PMOD-B share the same VDDIO supply level.
+
 | *Pin* | *Function*   |
 | --------- | -------|
 | 1         | A/B 1     |
@@ -65,6 +66,7 @@ The SPI driver operates in master mode. It can receive and transmit data in full
 General information about the SPI interface can bo found [here](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface).
 
 The SPI driver supports the following configuration parameters:
+
 | *Parameter* | *Description*   |
 | --------- | -------|
 | Bit Width | Number of transferred bits per SPI frame |
