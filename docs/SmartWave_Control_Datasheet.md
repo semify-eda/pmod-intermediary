@@ -18,12 +18,47 @@ The following drawing shows the block diagram of the SmartWave-Control hardware.
 ## Electrical parameter
 
 ### IOs
-  - IO Voltage range
-  - Pull-up resistor value
-  - Current Drive capability
-  - Rise and fall time on a given load
-  - Current drive capability
-  - Maximal frequency
+
+There are 16 bidirectinal pins with the following parameter.
+
+| *Parameter*       | *Min Value* | *Max Value*         | *Unit*  |
+| ---------         | -------:    | ----:               | ----|
+| Voltage range     | -0.5        | 6.0                 | V   |
+| High-level output current @VDDIO = 1.8 V |   |  -3    | mA|
+| High-level output current @VDDIO = 2.5 V |   |  -5    | mA|
+| High-level output current @VDDIO = 3.3 V |   |  -8    | mA|
+| High-level output current @VDDIO = 5.0 V |   | -16    | mA|
+| Low-level output current @VDDIO = 1.8 V  |   |   3    | mA|
+| Low-level output current @VDDIO = 2.5 V  |   |   5    | mA|
+| Low-level output current @VDDIO = 3.3 V  |   |   8    | mA|
+| Low-level output current @VDDIO = 5.0 V  |   |  16    | mA|
+| Pin capacitance                          |   |  15    | pF|
+
+
+#### Frequency
+
+The maximal frequency depends on the selected VDDIO voltage.
+
+| *Parameter*       | *Min Value* | *Max Value*         | *Unit*  |
+| ---------         | -------:    | ----:               | ----|
+| VDDIO < 2.5V      |             | 30       | MHz |
+| VDDIO >= 2.5V     |             | 40       | MHz |
+
+
+#### Pull-up resistor
+
+Each bidirectional pin has a pull-up resistor assignet. Each pull-up resistor can enabled or disabled indpendently.
+
+| *Parameter*       | *Min Value* | *Max Value*         | *Unit*  |
+| ---------         | -------:    | ----:               | ----|
+| Pull-up resistor  |  2.2k-1%    | 2.2k+1%       | Ohm |
+
+
+#### ESD Protection:
+  - Transient Protection for High Speed Lines to:
+    - IEC61000−4−2 (ESD) ±15 kV (air), ±8 kV (contact)
+    - IEC61000−4−4 (EFT) 40 A
+    - IEC61000−4−5 (Lightning) 12 A
 
 ### Current consumption 
 The SmartWave-Control is supplied via the USB connector.
