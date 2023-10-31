@@ -174,3 +174,9 @@ The housing is a robust anodized aluminum housing.
 | Width     |      86 | mm    |
 | Height    |      67 | mm    |
 | Depth     |      32 | mm    |
+
+
+### Operating Temperature
+
+The operating temperature range is from 10 to 40°C.
+
